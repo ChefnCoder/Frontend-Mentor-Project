@@ -1,0 +1,122 @@
+#register-section{
+    padding-top: 120px;
+}
+.register-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: white;
+}
+.outerdiv{
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0e8686;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"]
+{
+    border: none;
+    border-bottom: 1.5px solid #333;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: transparent;
+    outline: none;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="tel"]:hover,
+input[type="date"]:hover {
+    border: 1px solid black;
+}
+
+.radio-group,.checkbox-group {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 10px;  
+}
+
+.radio-group div, .checkbox-group div {   
+}
+
+.radio-group label,.checkbox-group label  {
+    margin-left: 5px; 
+    font-size: 12px; 
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+input[type="radio"],input[type="checkbox"]  {
+    margin-right: 10px;
+}
+
+input[type="date"]{
+    border: 1px solid #333;
+    padding: 2px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    background-color: transparent;
+    width: 120px;
+}
+
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100px;
+    margin:10px 0;
+}

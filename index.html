@@ -1,0 +1,174 @@
+<!-- AboutUs.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AboutUs.css">
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="Event.css">
+    <link rel="stylesheet" href="Register.css">
+    <title>About Us</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="navbar">
+            <h1>TECHKNIGHTS ASSOCIATION</h1>
+            <p>PRESENTS</p>
+            <nav>
+                <ul>
+                    <li><a href="#about-section">ABOUT US</a></li>
+                    <li><a href="#event-section">EVENT</a></li>
+                    <li><a href="#register-section">REGISTER</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="bottom-border-div">
+        &nbsp;
+     </div>
+    <!-- About Us Page Content -->
+    <section id="about-section" class="about-section">
+        <h1>ABOUT US</h1>
+        <p class="description">
+            Department Of Computer Science And Business Systems<br>
+            Presenting International Level Symposium On 5th October, 2024<br>
+            "Towen Gen3"
+        </p>
+
+        <p class="event-details">
+            We Have Planned To Conduct Technical Event As Well As<br>
+            Non Technical Event With Exciting Prizes!!
+        </p>
+
+        <p class="welcome-message">
+            Techknights Association Welcomes You<br>
+            To Explore A New Horizons &gt;&gt;
+        </p>
+        
+        <div class="social-icons">
+            <a href="#"><img src="/images/instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="/images/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="/images/youtube-icon.png" alt="YouTube"></a>
+        </div>
+        
+        <div class="event-info">
+            <p><span class="icon"><img src="/images/calendar.png" alt="Calendar Icon" ></span> 05/10/2024</p>
+            
+            <p><span class="icon"><img src="/images/clock.png" alt="Clock Icon"></span> 9:00am - 4:00pm</p>
+            
+        </div>
+        
+    </section>
+
+    <!-- New Event Section -->
+    <section id="event-section" class="event-section">
+        <!-- Header and Subtitle above the circle -->
+        <div class="event-header">
+            <h1>FRONTEND MENTOR</h1>
+            <h2>Unlock And Elevate Your Frontend Skills</h2>
+        </div>
+    
+        <!-- Circle content remains the same -->
+        <div class="event-circle">
+            <p>
+                "Frontend Mentor Is An Exciting Event<br> 
+                For Developers,<br>
+                Where They Need To Code <br> 
+                A Given Web Design Page<br>
+                Using Html, Css, And Javascript."
+            </p>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Register Section -->
+    <section id="register-section" class="register-section">
+        <div class="outerdiv">
+        <div class="form-container">
+            <h1>REGISTER HERE:</h1>
+            <h2>FILL THIS FORM</h2>
+            
+            <form action="#">
+                <label for="name">NAME</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="contact">CONTACT NUMBER</label>
+                <input type="tel" id="contact" name="contact" required>
+
+                <label for="college">COLLEGE</label>
+                <input type="text" id="college" name="college" required>
+
+                <label for="dept">DEPT</label>
+                <input type="text" id="dept" name="dept" required>
+
+                <label for="year">YEAR</label>
+                <div class="radio-group">
+                    <div>
+                        <input type="radio" id="1st" name="year" value="1st">
+                        <label for="1st">1st</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="2nd" name="year" value="2nd">
+                        <label for="2nd">2nd</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="3rd" name="year" value="3rd">
+                        <label for="3rd">3rd</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="4th" name="year" value="4th">
+                        <label for="4th">4th</label>
+                    </div>
+                </div>
+
+
+                <label for="gender">GENDER</label>
+                <div class="radio-group">
+                    <div>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>  
+                    </div>
+                    <div>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                    
+                </div>
+
+                <label for="dob">DOB</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="skills">SKILLS</label>
+                <div class="checkbox-group">
+                <div>
+                    <input type="checkbox" id="html" name="skills" value="HTML">
+                    <label for="html">HTML</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="css" name="skills" value="CSS">
+                    <label for="css">CSS</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+                </div>
+                <label for="reason">WHY JOINING THIS EVENT?</label>
+                <textarea id="reason" name="reason" rows="4" placeholder="Reason For Joining This Event"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>

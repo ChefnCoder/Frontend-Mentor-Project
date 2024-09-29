@@ -1,0 +1,51 @@
+#event-section{
+    padding-top: 100px;
+}
+
+
+.event-section {
+    
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 120vh; 
+}
+
+
+.event-header h1 {
+    font-size: 36px; 
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin: 15px; 
+}
+
+.event-header h2 {
+    font-size: 20px; 
+    font-weight: 800; 
+    color: gray; 
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+
+.event-circle {
+    width: 390px; 
+    height: 390px;
+    background-color: #7ebd93; 
+    border-radius: 50%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px; 
+    margin-bottom: 10px;
+}
+
+.event-circle p {
+    font-size: 18px;  
+    line-height: 1.5; 
+}
